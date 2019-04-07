@@ -1,0 +1,28 @@
+/*Variaveis*/
+/*style*/
+h1 {
+  font-size: 30px; }
+
+body {
+  background: #f9f9f9; }
+
+.card {
+  min-height: 40px;
+  width: 350px;
+  background: #fff; }
+  .card .card-header {
+    height: 50px;
+    line-height: 50px;
+    background: #333; }
+    .card .card-header .card-title {
+      font-size: 18px;
+      text-align: center;
+      font-weight: bold;
+      color: #f39c12; }
+  .card .card-body {
+    min-height: 100px;
+    padding: 1rem;
+    background: #eee; }
+    .card .card-body p {
+      text-align: justify;
+      color: #333; }

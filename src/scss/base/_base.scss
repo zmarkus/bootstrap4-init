@@ -1,0 +1,35 @@
+@import '_variables.scss';
+
+/*style*/
+h1{
+    font-size: $var1;
+}
+body{
+    background: $cor;
+}
+
+.card{
+    min-height: $card-min-height;
+    width: $card-width;
+    background: $bg-background;
+    .card-header{
+        height: 50px;
+        line-height: 50px;
+        background: #333;
+        .card-title{
+            font-size: $card-header-title;
+            text-align: center;
+            font-weight: bold;
+            color: $bg-color-title;
+        }
+    }
+    .card-body{
+        min-height: 100px;
+        padding: 1rem;
+        background: #eee;
+        p{
+            text-align: justify;
+            color: #333;
+        }
+    }
+}
